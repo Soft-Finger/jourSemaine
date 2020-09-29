@@ -100,14 +100,6 @@ public class JourSemaine {
 							annee_bissexile = false;
 			}
 		}
-		/* if(annee >= 1600 && annee <= 2199) {
-			annee_valide = true;
-		}else {
-			annee_valide = false;
-			System.out.print("Année saisie est invalide...\nVeuillez entrer une année comprise entre 1600 et 2199 : ");
-			annee = Keyboard.readInt();
-		} */
-		
 		
 		System.out.print("Entrer le mois : ");
 		mois = Keyboard.readInt();
@@ -250,8 +242,6 @@ public class JourSemaine {
 		
 		resteDivision_7 = ((terme_1 + terme_2 + terme_3 + terme_4 + terme_5) - terme_6) % 7;
 		//System.out.println(resteDivision_7);
-		
-		
 		
 	// Conversion du numero du jour du numerique à l'alphabétique
 		
